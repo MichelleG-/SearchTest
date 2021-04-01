@@ -1,0 +1,6 @@
+include ':commons:ui'
+include ':feature:nationality'
+include ':feature:category'
+include ':datasource'
+include ':app'
+rootProject.name = "SearchTest"

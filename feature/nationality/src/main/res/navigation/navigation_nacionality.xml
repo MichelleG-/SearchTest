@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/category_list_fragment">
+
+    <fragment
+        android:id="@+id/category_list_fragment"
+        android:name="com.example.category.list.ui.CategoryListFragment"
+        android:label="CatgoryList">
+    </fragment>
+</navigation>
